@@ -8,6 +8,7 @@ export default function Home() {
     { url:'https://assets.stickpng.com/images/580b57fcd9996e24bc43c2f5.png', alt:'img', width:'600',height:'100' }
   ]
 
+
   const tituloPre =  'Las 3 Dimensiones de Minecraft';
   const subtituloPre = 'alsldalsflaslalsflalsflaflalfla'
   const imgPre =[
