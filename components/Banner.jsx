@@ -1,17 +1,19 @@
-import styles from "../styles/banner.module.css";
-export default function Banner(props) {
+
+import React from 'react'
+import Titulo from './Titulo'
+import ImageInd from './ImageInd';
+import styles from '../styles/home.module.css';
+export default function Banner({tituloBanner,imageBanner}) {
+    const titulo = tituloBanner;
+    const images = imageBanner
   return (
-    <>
-      <section className={styles.banner}>
-        <div className={styles.overlay}></div>
-        <div className={styles.bannerContent}>
-          <h1 className={styles.bannerText}>
-            El Nether es una dimensión en Minecraft, que se encuentra debajo del
-            mundo normal. Es un lugar lleno de lava, fuego, criaturas hostiles y
-            estructuras únicas.
-          </h1>
-        </div>
-      </section>
-    </>
-  );
+    <article className={styles.banner}>
+        <section className={styles.bannerTitulo}>
+            <Titulo titulo={titulo} />
+        </section>
+        <section className={styles.bannerContImg}>
+            <ImageInd images={images}/>
+        </section>
+    </article>
+  )
 }

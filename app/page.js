@@ -1,18 +1,22 @@
-
-
-
+import React from 'react'
+import Banner from '@/components/Banner';
+import Presentacion from '@/components/Presentacion';
+import styles from '../styles/home.module.css'
 export default function Home() {
-  return (
-    <main>
-        <h1>Esto lo hizo Eugenio</h1>
+  const tituloBanner =  '';
+  const imageBanner =[
+    { url:'https://assets.stickpng.com/images/580b57fcd9996e24bc43c2f5.png', alt:'img', width:'600',height:'100' }
+  ]
 
-        <div>
-          <p>
-            pon algo iskander abajo de esto 
-             
-          </p>
-          <h1>  </h1>
-        </div>
+
+  const tituloPre =  'Las 3 Dimensiones de Minecraft';
+  const subtituloPre = 'alsldalsflaslalsflalsflaflalfla'
+  const imgPre =[
+    { url:'https://assets.stickpng.com/images/580b57fcd9996e24bc43c2f5.png', alt:'img', width:'600',height:'100' }
+  ]
+  return (
+    <main className={styles.main}>
+      <Banner tituloBanner={tituloBanner} imageBanner={imageBanner} />
     </main>
   )
 }
