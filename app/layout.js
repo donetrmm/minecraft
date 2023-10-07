@@ -1,7 +1,5 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import NavBar from '@/components/NavBar';
 
 export const metadata = {
   title: 'Create Next App',
@@ -9,9 +7,22 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  const tittuloNav = 'Dimensiones MC';
+  const linksNav = [
+  
+    { url: './overworld', text: 'Overworld ' },
+    { url: './nether', text: 'Nether' },
+    { url: './end', text: 'End' },
+
+    
+    
+  ];
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <NavBar tittuloNav={tittuloNav} linksNav={linksNav}/>
+        {children}
+        </body>
     </html>
   )
 }
