@@ -4,6 +4,7 @@
 
 Este archivo README proporciona una descripción general de los principales comandos para clonar desde GitHub y ejecutar ese programa en Next.js, así como una investigación acerca de conceptos básicos de Git. También menciona comandos y conceptos claves de trabajo colaborativo usando GitHub, así como características avanzadas de Git.
 
+Este archivo fue creado por Iskander Ramos, Eugenio Gordillo y Marco Arellanes.
 ## Clonar un proyecto de GitHub
 
 Para clonar un proyecto de GitHub, siga los siguientes pasos:
@@ -36,8 +37,8 @@ npm install
 npm run dev
 ```
 
-El servidor de desarrollo se iniciará en la dirección http://localhost:3000, puede ser diferente en caso que
-el puerto 3000 este ocupado.
+El servidor de desarrollo se iniciará en la dirección http://localhost:3000 (puede ser diferente en caso que
+el puerto 3000 se encuentre ocupado).
 
 ## Conceptos básicos de Git
 
@@ -49,40 +50,40 @@ Los siguientes son algunos conceptos básicos de Git:
 * **Rama:** Una rama es una versión independiente del código fuente de un proyecto.
 * **Commit:** Un commit es un conjunto de cambios que se realizan en un archivo o en un conjunto de archivos.
 * **Conflicto:** Un conflicto ocurre cuando se realizan cambios en el mismo archivo en dos ramas diferentes.
-* **Flujo de trabajo básico:** El flujo de trabajo básico de Git consiste en crear una rama para cada nueva característica o corrección de errores, y luego fusionar esa rama con la rama principal cuando esté lista.
+### * **Flujo de trabajo básico:** El flujo de trabajo básico de Git consiste en crear una rama para cada nueva característica o corrección de errores, y luego fusionar esa rama con la rama principal cuando esté lista.
 
-**Ejemplo de flujo de trabajo**
+    #### **Ejemplo de flujo de trabajo**
 
-A continuación, se muestra un ejemplo de cómo utilizar el flujo de trabajo básico de Git:
+    A continuación, se muestra un ejemplo de cómo utilizar el flujo de trabajo básico de Git:
 
-1. Cree una nueva rama para una nueva característica:
+    1. Cree una nueva rama para una nueva característica:
 
-```
-git checkout -b nuevaCaracteristica
-```
+    ```
+    git checkout -b nuevaCaracteristica
+    ```
 
-2. Realice los cambios necesarios en la rama:
+    2. Realice los cambios necesarios en la rama:
 
-```
-git add .
-git commit -m "Nueva característica"
-```
+    ```
+    git add .
+    git commit -m "Nueva característica"
+    ```
 
-3. Suba los cambios a su rama en repositorio remoto:
+    3. Suba los cambios a su rama en repositorio remoto:
 
-```
-git push origin nuevaCaracteristica
-```
+    ```
+    git push origin nuevaCaracteristica
+    ```
 
-4. Empiece un nuevo pull request para solicitar la fusión de los cambios:
+    4. Empiece un nuevo pull request para solicitar la fusión de los cambios:
 
-```
-En  la página de GitHub se gestionan y aprueban los pull request.
-```
+    ```
+    En  la página de GitHub se gestionan y aprueban los pull request.
+    ```
 
-5. Una vez que el pull request haya sido aprobado, se fusionará con la rama principal.
+    5. Una vez que el pull request haya sido aprobado, se fusionará con la rama principal.
 
-Este es solo un ejemplo, y puede personalizar el flujo de trabajo para adaptarse a sus necesidades específicas.
+    Este es solo un ejemplo, y puede personalizar el flujo de trabajo para adaptarse a sus necesidades específicas.
 ## Comandos básicos de Git
 
 Los siguientes son algunos comandos básicos de Git:
