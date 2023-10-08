@@ -1,11 +1,14 @@
 import React from 'react'
-import styles from '../styles'
+import styles from '../styles/'
 export default function BannerOW() {
   return (
-    <article className={styles.contImg}>
-        <section>
-            <h3>contenido de lo que sea del tema </h3>
-        </section>
-    </article>
+    <section className={styles.banner}>
+    <div className={styles.overlay}></div>
+    <div className={styles.bannerContent}>
+      <h1 className={styles.bannerText}>
+        holaaaaaaaaaaaaaaaaaaaaaaaaa
+      </h1>
+    </div>
+  </section>
   )
 }
