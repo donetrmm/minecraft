@@ -1,0 +1,28 @@
+.end-mob-card {
+    background-color: #D9D5A0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .mob-image {
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .mob-name {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .mob-description {
+    font-size: 1rem;
+  }
+  
+  
