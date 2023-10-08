@@ -13,9 +13,9 @@ Para clonar un proyecto de GitHub, siga los siguientes pasos:
 2. Navegue hasta la carpeta donde desea clonar el proyecto.
 3. Ejecute el siguiente comando:
 
-```
-git clone https://github.com/donetrmm/minecraft.git
-```
+    ```
+    git clone https://github.com/donetrmm/minecraft.git
+    ```
 
 Este comando creará una nueva carpeta llamada `minecraft` en la carpeta actual.
 
@@ -27,15 +27,15 @@ Para ejecutar un proyecto de Next.js, siga los siguientes pasos:
 2. Navegue hasta la carpeta del proyecto.
 3. Instale las dependencias del proyecto ejecutando el siguiente comando:
 
-```
-npm install
-```
+    ```
+    npm install
+    ```
 
 3. Inicie el servidor de desarrollo ejecutando el siguiente comando:
 
-```
-npm run dev
-```
+    ```
+    npm run dev
+    ```
 
 El servidor de desarrollo se iniciará en la dirección http://localhost:3000 (puede ser diferente en caso que
 el puerto 3000 se encuentre ocupado).
@@ -117,16 +117,16 @@ Git tiene una serie de características avanzadas que pueden ser útiles para lo
 Los siguientes son algunas características avanzadas de Git:
 
 * **Rebases:** Un rebase permite fusionar una rama con otra sin crear un conflicto.
-    ```
-    git rebase [nombre_de_la_rama]    
-    ```
+        ```
+        git rebase [nombre_de_la_rama]    
+        ```
 * **Etiquetas:** Las etiquetas se pueden usar para marcar puntos específicos en el historial de un proyecto.
-    ```
-    git tag [nombre_de_la_etiqueta]
-    ```
+        ```
+        git tag [nombre_de_la_etiqueta]
+        ```
 * **Solicitudes de extracción:** Las solicitudes de extracción permiten a los desarrolladores solicitar la fusión de sus cambios en un repositorio compartido.
-    ```
-    git pull request [nombre_de_la_rama]
-    ```
+        ```
+        git pull request [nombre_de_la_rama]
+        ```
 
 
