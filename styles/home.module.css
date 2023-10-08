@@ -5,6 +5,7 @@
 
 .main{
     font-family: Minecraftia;
+    box-sizing: border-box;
 }
 
 .header{
@@ -45,8 +46,92 @@
 }
 .presentacion{
     display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2em;
+    width: 100%;
+    background-color: #2d3a3a;
+}
+.textPre h1{
+    color: #55FFFF;
+    text-shadow: 3px 3px #153F3F;
+}
+.textPre p{
+    color: #AAAAAA;
+}
+.contImgPre{
+    display: flex;
+    align-items: center;
+    order: 1;
+}
+.imgPre{
+    display: flex;
+   
 }
 
+.card{
+    display: flex;
+  
+    transition: 1s all ease;
+}
+
+.cardImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+  
+}
+.imgcard{
+    display: flex;
+    transition: 1s all ease;
+    object-fit: cover;
+   
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cardBody h3{
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 3px 3px #3F3F3F;
+    margin-top: 15px;
+}
+.cardBody p{
+    text-align: center;
+    margin: 10px;
+    color: #FFFF55;
+    text-shadow: 3px 3px #3F3F15;
+    margin-top: 20px;
+}
+.linkCard{
+    color: #FFFFFF;
+    text-shadow: 3px 3px #3F3F3F;
+    border: 1px solid;
+    width: 8em;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 1s all ease;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.linkCard:hover{
+    width: 7em;
+    font-size: 30px;
+    font-weight: bold;
+  }
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+}
 @media screen and (max-width: 620px) {
     .header{
         display: flex;
@@ -66,5 +151,30 @@
     .imgInd{
         width: 60%;
         height: 60%;
+       
     }
+    .presentacion{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imgPre{
+       width: 100%;
+       height: 100%;   
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardBody{
+        order: 2;
+    }
+    .cardImg{
+        order: 1;
+  
+    }
+ 
   }
+
+  
