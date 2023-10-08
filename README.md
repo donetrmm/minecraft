@@ -117,16 +117,16 @@ Git tiene una serie de características avanzadas que pueden ser útiles para lo
 Los siguientes son algunas características avanzadas de Git:
 
 * **Rebases:** Un rebase permite fusionar una rama con otra sin crear un conflicto.
-        ```
-        git rebase [nombre_de_la_rama]    
-        ```
+    ```
+    git rebase [nombre_de_la_rama]    
+    ```
 * **Etiquetas:** Las etiquetas se pueden usar para marcar puntos específicos en el historial de un proyecto.
-        ```
-        git tag [nombre_de_la_etiqueta]
-        ```
+    ```
+    git tag [nombre_de_la_etiqueta]
+    ```
 * **Solicitudes de extracción:** Las solicitudes de extracción permiten a los desarrolladores solicitar la fusión de sus cambios en un repositorio compartido.
-        ```
-        git pull request [nombre_de_la_rama]
-        ```
+    ```
+    git pull request [nombre_de_la_rama]
+    ```
 
 
