@@ -50,7 +50,7 @@ Los siguientes son algunos conceptos básicos de Git:
 * **Rama:** Una rama es una versión independiente del código fuente de un proyecto.
 * **Commit:** Un commit es un conjunto de cambios que se realizan en un archivo o en un conjunto de archivos.
 * **Conflicto:** Un conflicto ocurre cuando se realizan cambios en el mismo archivo en dos ramas diferentes.
-#### * **Flujo de trabajo básico:**
+* **Flujo de trabajo básico:**
     El flujo de trabajo básico de Git consiste en crear una rama para cada nueva característica o corrección de errores, y luego fusionar esa rama con la rama principal cuando esté lista.
 
     **Ejemplo de flujo de trabajo**
