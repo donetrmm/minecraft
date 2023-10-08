@@ -1,10 +1,9 @@
 import React from 'react'
-
+import BannerOW from '@/components/BannerOW'
 export default function page() {
   return (
-    <div>
-      <h1> Keno page overworld</h1>
-      <a href='/'>link home</a>
-    </div>
+    <main>
+      <BannerOW />
+    </main>
   )
 }
