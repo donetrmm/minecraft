@@ -67,19 +67,70 @@
 }
 .imgPre{
     display: flex;
+   
 }
+
 .card{
     display: flex;
-    padding: 2em;
+  
+    transition: 1s all ease;
 }
+
+.cardImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+  
+}
+.imgcard{
+    display: flex;
+    transition: 1s all ease;
+    object-fit: cover;
+   
+}
+
 .cardBody{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+.cardBody h3{
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 3px 3px #3F3F3F;
+    margin-top: 15px;
 }
 .cardBody p{
     text-align: center;
     margin: 10px;
+    color: #FFFF55;
+    text-shadow: 3px 3px #3F3F15;
+    margin-top: 20px;
+}
+.linkCard{
+    color: #FFFFFF;
+    text-shadow: 3px 3px #3F3F3F;
+    border: 1px solid;
+    width: 8em;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 1s all ease;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.linkCard:hover{
+    width: 7em;
+    font-size: 30px;
+    font-weight: bold;
+  }
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
 }
 @media screen and (max-width: 620px) {
     .header{
@@ -121,7 +172,9 @@
     }
     .cardImg{
         order: 1;
+  
     }
+ 
   }
 
   
