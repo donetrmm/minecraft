@@ -78,9 +78,7 @@ Los siguientes son algunos conceptos básicos de Git:
 
     4. Empiece un nuevo pull request para solicitar la fusión de los cambios:
 
-    ```
     En  la página de GitHub se gestionan y aprueban los pull request.
-    ```
 
     5. Una vez que el pull request haya sido aprobado, se fusionará con la rama principal.
 
