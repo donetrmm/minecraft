@@ -7,7 +7,7 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  const tittuloNav = 'Dimensiones MC';
+  const tittuloNav = 'Dimensiones';
   const linksNav = [
   
     { url: './overworld', text: 'Overworld ' },

@@ -8,7 +8,7 @@ export default function Presentacion({tituloPre,subtituloPre,imgPre}) {
     const images = imgPre;
     const subtitulo = subtituloPre;
   return (
-    <article >
+    <article className={styles.presentacion}>
     <section  >
         <Titulo titulo={titulo} />
         <Subtitulo subtitulo={subtitulo} />
