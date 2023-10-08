@@ -1,0 +1,40 @@
+.card {
+  width: 40%;
+  border: 1px solid #ff5500;
+  padding: 20px;
+  text-align: center;
+  background-color: #000000; 
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.cardImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.cardTitle {
+  color: #ff5500; 
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.cardText {
+  color: #ffffff; 
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%; 
+    margin: 10px 0; 
+  }
+
+  .cardTitle {
+    font-size: 1.2rem; 
+  }
+
+  .cardText {
+    font-size: 0.9rem; 
+  }
+}
