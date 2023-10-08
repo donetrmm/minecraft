@@ -24,7 +24,7 @@
   }
   
   .bannerText {
-    font-size: 1.3rem; 
+    font-size: 1.1rem; 
     padding: 2em;
     transition: font-size 0.3s; 
     text-align: justify;
@@ -36,7 +36,7 @@
     }
   
     .bannerText {
-      font-size: 1rem; 
+      font-size: 0.9rem; 
       padding: 10px; 
     }
   }
