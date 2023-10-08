@@ -5,6 +5,7 @@
 
 .main{
     font-family: Minecraftia;
+    box-sizing: border-box;
 }
 
 .header{
@@ -45,8 +46,41 @@
 }
 .presentacion{
     display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2em;
+    width: 100%;
+    background-color: #2d3a3a;
 }
-
+.textPre h1{
+    color: #55FFFF;
+    text-shadow: 3px 3px #153F3F;
+}
+.textPre p{
+    color: #AAAAAA;
+}
+.contImgPre{
+    display: flex;
+    align-items: center;
+    order: 1;
+}
+.imgPre{
+    display: flex;
+}
+.card{
+    display: flex;
+    padding: 2em;
+}
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardBody p{
+    text-align: center;
+    margin: 10px;
+}
 @media screen and (max-width: 620px) {
     .header{
         display: flex;
@@ -66,5 +100,28 @@
     .imgInd{
         width: 60%;
         height: 60%;
+       
+    }
+    .presentacion{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imgPre{
+       width: 100%;
+       height: 100%;   
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardBody{
+        order: 2;
+    }
+    .cardImg{
+        order: 1;
     }
   }
+
+  
