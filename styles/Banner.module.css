@@ -1,0 +1,12 @@
+.contenidoImg{
+    border-radius: 20px;
+ }
+ 
+ @media screen and (max-width: 620px) {
+     .contenidoImg {
+             width: 60%;
+             height: 60%;
+             object-fit: contain;
+     }
+  
+   }
