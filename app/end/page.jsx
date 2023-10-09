@@ -51,6 +51,33 @@ const Page = () => {
             description={mob.description}
           />
         ))}
+              {/* Div con información de "¿Cómo llegar?" */}
+              <div className={`${styles.howToGetContainer} ${styles.marginTop20} ${styles.marginBottom20} ${styles.marginLR20}`}>
+        <h2>¿Cómo llegar?</h2>
+        <br></br>
+        <p>
+        Para acceder al End, el jugador debe encontrar y activar el portal del End, el cual se encuentra en una fortaleza.
+
+El jugador tendrá que conseguir 12 perlas de ender matando endermans o intercambiando con los piglins o aldeanos después, usando polvo de blaze, convertirlas en ojos de ender. Se pueden utilizar estos ojos de ender para localizar una fortaleza lanzándolos en el aire y siguiendo la dirección en que vayan volando. Se advierte al jugador de crear varios ojos de ender, esto debido a que ocasionalmente se desvanecen al lanzarlos o se destruyen. Para activar el portal, hay que insertar un ojo de ender en cada uno de los huecos del marco del portal del End, 12 en total.
+          
+        </p>
+        <div className={`${styles.centeredImage} ${styles.smallerImage} `}>
+          <img src="https://i.blogs.es/778720/portal-de-end-minecraft/450_1000.jpeg" alt="portal" />
+        </div>
+      </div>
+    </div>
+                  {/* Div con "El mejor item del end" */}
+                  <div className={styles.bestItemContainer}>
+        <div className={styles.bestItemDescription}>
+          <h2>El mejor item del end</h2>
+          <br></br>
+          <p>Los élitros (Elytra en inglés) son unas alas que le permiten al jugador planear.</p>
+          <br></br>
+          <p>Los élitros solo se puede encontrar en las ciudades del End en un marco en la sala del tesoro del barco del End. Un shulker guarda el élitros y los dos cofres de botín del barco.</p>
+        </div>
+        <div className={styles.bestItemImage}>
+          <img src="https://lh3.bunny.novaskin.me/wcaRKZU-auCjYWyOOqVQm_ugQCUIwm28G1WUmBj44kM9PBGJlq_61Hy09hKWa4aB3BJlLNTVGf3TKkCPyN-yFfM" alt="Elytras" />
+        </div>
       </div>
     </div>
   );

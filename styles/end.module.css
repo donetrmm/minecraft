@@ -20,7 +20,7 @@
   
   /* Estilo para la imagen */
   .imageContainer img {
-    max-width: 60%; /* La imagen no superará su tamaño original */
+    max-width: 60%; 
     height: auto;
   }
   
@@ -47,7 +47,6 @@
 /* Estilo para la tarjeta de mob */
 .end-mob-card {
     background-color: #D9D5A0;
-    border-radius: 10px;
     padding: 20px;
     margin: 10px;
     width: 300px;
@@ -60,7 +59,6 @@
     width: 100px; 
     height: 100px; 
     object-fit: cover;
-    border-radius: 50%;
   }
   
   .mob-name {
@@ -72,7 +70,7 @@
   
   .mob-description {
     font-family: Minecraftia;
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
 
@@ -110,6 +108,52 @@
   .mob-description {
     font-size: 1rem;
   }
+  
+  .howToGetContainer {
+    background-color:rgba(89, 69, 80, 0.5);
+    padding: 20px;
+    margin-top: 20px; 
+  }
+  
+  /* Estilo para la imagen centrada */
+  .centeredImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+  }
+  
+  /* Estilo para el texto */
+  .howToGetContainer h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .howToGetContainer p {
+    font-size: 18px;
+  }
+
+  .bestItemContainer {
+    background-color: #211826;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .bestItemDescription {
+    max-width: 50%; 
+    padding-right: 20px;
+  }
+  
+  .bestItemImage img {
+    max-width: 60%; 
+    height: auto;
+  }
+ 
+  
   
 
 @font-face {
