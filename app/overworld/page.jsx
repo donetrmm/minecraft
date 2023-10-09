@@ -74,19 +74,55 @@ export default function page() {
       src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Pillager_JE3.png/revision/latest/scale-to-width-down/700?cb=20220714205247',alt:'img',width:'150',height:'50',titulo:'Saqueador',subtitulo:'Los saqueadores son criaturas hostiles armadas con ballestas que se encuentran en bandas ambulantes o como participantes en invasiones. ',
     },   
     {
-      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/99/Lucy_Axolotl_JE2.png/revision/latest/scale-to-width-down/700?cb=20210402204139',alt:'img',width:'100',height:'50',titulo:'',subtitulo:' ',
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/99/Lucy_Axolotl_JE2.png/revision/latest/scale-to-width-down/700?cb=20210402204139',alt:'img',width:'150',height:'50',titulo:'Ajolote',subtitulo:'El  ajolote es una criatura pasiva encontrada en el bioma de cuevas frondosas que puede transportarse en cubos con agua y ataca a algunas criaturas marinas. ',
     },
     {
-      src:'',alt:'img',width:'100',height:'50',titulo:'',subtitulo:' ',
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1e/Brown_Horse.png/revision/latest/scale-to-width-down/700?cb=20190716121731',alt:'img',width:'150',height:'50',titulo:'Caballo',subtitulo:'Los caballos son criaturas domesticables que pueden servir para la exploración, las variantes pueden aparecer en uno de varios colores de piel diferentes que exhiben manchas o rasgos diferentes. ',
     },  
     {
-      src:'',alt:'img',width:'100',height:'50',titulo:'',subtitulo:' ',
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1a/Pig_JE3_BE2.png/revision/latest/scale-to-width-down/699?cb=20230111235817',alt:'img',width:'150',height:'50',titulo:'Cerdo',subtitulo:' Un cerdo es una criatura pasiva que se encuentra comúnmente en la mayoría de los biomas de hierba.',
     },
     {
-      src:'',alt:'img',width:'100',height:'50',titulo:'',subtitulo:' ',
+      src:'https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/8/8c/Gato_Tabby.png/revision/latest?cb=20180711175643',alt:'img',width:'150',height:'50',titulo:'Gato',subtitulo:'Los Gatos son mobs pacíficos domesticables, el gato de hoy más moderno en Minecraft salio en la 1.14.  ',
     },
     {
-      src:'',alt:'img',width:'100',height:'50',titulo:'',subtitulo:' ',
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c4/Wolf_JE2_BE2.png/revision/latest/scale-to-width-down/700?cb=20200531094035',alt:'img',width:'150',height:'50',titulo:'Lobo',subtitulo:'Los lobos son criaturas neutrales, se cree que no cambiaron mucho desde sus inicios siendo casi un fósil viviente introducidas en la versión 1.1.1 ',
+    }, 
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e2/White_Sheep_JE3_BE6.png/revision/latest/scale-to-width-down/699?cb=20190809163123',alt:'img',width:'150',height:'50',titulo:'Oveja',subtitulo:'Las ovejas son criaturas pasivas comunes que suministran lana y cordero crudo y se encuentran en muchos biomas. ',
+    },  
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2c/Chicken_JE2_BE2.png/revision/latest?cb=20190721103652',alt:'img',width:'150',height:'50',titulo:'Pollo',subtitulo:'Los pollos (también llamadas gallinas) son criaturas pasivas que suministran plumas, pollo crudo, huevos, e incluso pollo asado. ',
+    },  
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/8/84/Cow.png/revision/latest?cb=20201112133105',alt:'img',width:'150',height:'50',titulo:'Vaca',subtitulo:'Una vaca es una criatura pasiva que se encuentra en la mayoría de los biomas con césped y una fuente de cuero, filete y leche. ',
+    },
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/Salmon.gif/revision/latest?cb=20190923182046',alt:'img',width:'150',height:'50',titulo:'Salmon',subtitulo:'Los salmones son criaturas pasivas comunes que se encuentran en los océanos y en los ríos. ',
+    },
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/66/Cod.gif/revision/latest?cb=20190924091509',alt:'img',width:'150',height:'50',titulo:'Bacalao',subtitulo:' El bacalao es una criatura pasiva bastante común encontrada en la Superficie, en varios biomas de océano. ',
+    },
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/a/a5/Panda_juguet%C3%B3n_sent%C3%A1ndose.png/revision/latest?cb=20200804161354',alt:'img',width:'150',height:'50',titulo:'El panda',subtitulo:' Los pandas aparecen en grupos de 1 o 2 en bloques con césped en la jungla con un espacio mínimo de dos bloques de altura ( El Panda Emi )',
+    },
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/7/78/Polar_Bear.png/revision/latest?cb=20171009151949',alt:'img',width:'150',height:'50',titulo:'Oso Polar (el panda blanco)',subtitulo:'Los osos polares (Polar Bear en inglés) son criaturas neutrales que viven en biomas fríos.',
+    },
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Spider_JE4_BE3.png/revision/latest/scale-to-width-down/700?cb=20200108012105',alt:'img',width:'150',height:'50',titulo:'Araña',subtitulo:'La araña es la tercera criatura añadida al juego. Sus ojos brillan de color rojo en la oscuridad, dándoles una apariencia tétrica ',
+    },
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/4/46/Enderman-con-bloque.png/revision/latest?cb=20121015100421',alt:'img',width:'150',height:'50',titulo:'Enderman',subtitulo:'El Enderman es un monstruo poco común de estatura alta, delgada y de color negro con ojos rosados.  ',
+    },
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/87/Zombie_JE3_BE2.png/revision/latest?cb=20191227070025',alt:'img',width:'150',height:'50',titulo:'Zombie',subtitulo:' El zombi (Zombie en inglés) es una criatura hostil común y no muerta.',
+    },
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b6/Skeleton_Aiming_JE2_BE3.png/revision/latest/scale-to-width-down/565?cb=20191103010055',alt:'img',width:'150',height:'50',titulo:'Esqueleto',subtitulo:'El esqueleto (Skeleton en inglés) es una criatura hostil común y no muerta que va equipada con un arco y flechas. La Calaca Chida ',
+    },
+    {
+      src:'https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/b/b2/Creeper1.png/revision/latest?cb=20210923172737',alt:'img',width:'150',height:'50',titulo:'Creeper',subtitulo:'El creeper es una criatura hostil común que se acerca sigilosamente al jugador y explota, destruyendo el entorno y dañando tanto al jugador como a otras criaturas dentro del radio. Te odio cada que respires ',
     },
   ]
   return (
