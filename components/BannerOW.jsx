@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/'
+import styles from '../styles/OWpage.module.css'
 export default function BannerOW() {
   return (
     <section className={styles.banner}>
