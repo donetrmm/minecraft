@@ -7,3 +7,50 @@
     font-family: Minecraftia;
     box-sizing: border-box;
 }
+.biomasOW{
+    padding: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.contBioma{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    width: 100%;
+    height: auto;
+}
+.card {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: #e5e5e5; 
+    border-radius: 20px;
+    margin: 15px;
+    transition: 1s all ease;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  .contBioma:hover > :not(:hover){
+    opacity: .5;
+}
+  .imgCardow{
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+  }
+
+  @media (max-width: 720px) {
+    .card {
+      width: 100%; 
+      margin: 10px 0; 
+    }
+  
+
+  }
