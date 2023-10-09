@@ -6,7 +6,7 @@ import Titulo from "@/components/Titulo";
 export default function Nether(props) {
   return (
     <>
-      <body className={styles.body}>
+      <div className={styles.body}>
         <section>
           <Banner data={aboutNether} />
         </section>
@@ -40,7 +40,7 @@ export default function Nether(props) {
             ))}
           </div>
         </section>
-      </body>
+      </div>
     </>
   );
 }
